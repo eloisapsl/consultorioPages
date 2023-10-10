@@ -39,14 +39,24 @@ const styles = StyleSheet.create({
     button: {
         height:'30px',
         width: '80%',
-        backgroundColor: '#457b9d',
+        backgroundColor: '#219ebc',
         borderRadius: '20px',
+        justifyContent: 'center',
+        marginTop: '10px',
+        borderWidth: 1.5
     },
     tLogin: {
         width: '100%',
         fontFamily: 'Poppins',
         fontWeight: '800',
         fontSize: '18px',
+        textAlign: 'center'
+    },
+    descricao: {
+        width: '100%',
+        fontFamily: 'Poppins',
+        fontWeight: '400',
+        fontSize: '14px',
         textAlign: 'center'
     },
     senhas: {

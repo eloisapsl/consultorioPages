@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native';
 import "@fontsource/poppins";
+
+
 const styles = StyleSheet.create({
     containerLogin: {
         backgroundColor: '#a8dadc',
@@ -37,6 +39,7 @@ const styles = StyleSheet.create({
     subtitulo: {
         margin: '10px',
         fontFamily: 'Poppins',
+        fontWeight: '400',
         width: '80%',
         color: 'black',
         fontSize: '14px'
@@ -64,9 +67,10 @@ const styles = StyleSheet.create({
     button: {
         height:'30px',
         width: '80%',
-        backgroundColor: '#457b9d',
+        backgroundColor: '#219ebc',
         borderRadius: '20px',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderWidth: 1.5
     },
     tLogin: {
         width: '100%',
@@ -80,7 +84,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Poppins',
         fontWeight: '900',
         fontSize: '16px',
-        textAlign: 'center'
+        textAlign: 'center',
     },
     senhas: {
         height: '30px',
@@ -88,19 +92,31 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end',
         paddingRight: '10px',
     },
+    txtMenor:{
+        fontFamily: 'Poppins',
+        fontSize: '13px'
+    },
     register: {
-        height: '50px',
-        width: '80%',
+        height: '60px',
+        width: '100%',
         alignItems: 'center',
         justifyContent: 'center'
     },
-    botaoregister: {
-        marginTop: '10px',
-        height:'30px',
+    txtButtonRegistro: {
         width: '100%',
-        backgroundColor: '#457b9d',
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: '16px',
+        textAlign: 'center'
+    },
+    buttonRegistro: {
+        height:'30px',
+        width: '80%',
+        backgroundColor: '#219ebc',
         borderRadius: '20px',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: '10px',
+        borderWidth: 1.5
     }
 
 });

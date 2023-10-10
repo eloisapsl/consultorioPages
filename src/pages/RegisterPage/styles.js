@@ -6,20 +6,34 @@ const styles = StyleSheet.create({
         height: '100%',
         width: '100%',
         alignItems: 'center',
-        justifyContent: 'center'
+        paddingBottom: '50px',
+        paddingTop: '50px'
+        //justifyContent: 'center'
 
+    },
+    iconeimg: {
+        width: '80%',
+        height:'140px',
+        marginTop: '20px',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    icone: {
+        width: '80%',
+        height: '60%',
     },
     registerView:{
         width:'80%',
         height: '80%',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        paddingBottom: '30px'
     },
     txtInput: {
         alignItems: 'center',
         justifyContent:'center',
         width: '100%',
-        height: '180px',
+        height: '100%',
         textAlign: 'center'
     },
     pholder: {
@@ -39,22 +53,20 @@ const styles = StyleSheet.create({
     button: {
         height:'30px',
         width: '80%',
-        backgroundColor: '#457b9d',
+        backgroundColor: '#219ebc',
         borderRadius: '20px',
+        justifyContent: 'center',
+        marginTop: '10px',
+        borderWidth: 1.5
     },
     tLogin: {
         width: '100%',
         fontFamily: 'Poppins',
         fontWeight: '800',
-        fontSize: '18px',
+        fontSize: '16px',
         textAlign: 'center'
     },
-    senhas: {
-        height: '30px',
-        width: '80%',
-        alignItems: 'flex-end',
-        paddingRight: '10px',
-    },
+  
 
 });
 

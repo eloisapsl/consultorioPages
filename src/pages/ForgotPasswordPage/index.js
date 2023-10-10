@@ -9,9 +9,9 @@ export default function ForgotPasswordPage(){
                 <View style={styles.txtInput}>
             <Text style={styles.tLogin}>Recuperar senha</Text>
             <TextInput style={styles.pholder} placeholder='email'/>
-            <Text style={styles.tLogin}>Você receberá um código de confirmação em seu e-mail para recuperar sua senha.</Text>
+            <Text style={styles.descricao}>Você receberá um código de confirmação em seu e-mail para recuperar sua senha.</Text>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.tLogin}>Confirmar</Text>
+            <Link to={{screen: 'LoginPage'}} style={styles.tLogin}>Confirmar</Link>
             </TouchableOpacity>
         </View>
             </View>
